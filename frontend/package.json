@@ -1,0 +1,9 @@
+{
+  "name": "keval-multi-agent-ai-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite","build":"tsc && vite build","preview":"vite preview"},
+  "dependencies": {"@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","react":"latest","react-dom":"latest"},
+  "devDependencies": {}
+}
