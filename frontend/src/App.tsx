@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000"
+const API = import.meta.env.VITE_API_URL || "https://keval-multi-agent-ai-backend.onrender.com"
 
 type Msg = {role:"user"|"assistant", content:string, agent?:string}
 type Doc = {id:string, filename:string, size:number, pages:number}
